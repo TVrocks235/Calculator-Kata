@@ -124,7 +124,7 @@ func processInput(input string) (string, error) {
 
 	// Проверка диапазона
 	if a < 1 || a > 100 || b < 1 || b > 100 {
-		return "", errors.New("числа должны быть в диапазоне от 1 до 10")
+		return "", errors.New("числа должны быть в диапазоне от 1 до 100")
 	}
 
 	// Выполнение вычислений
